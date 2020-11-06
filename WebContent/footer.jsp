@@ -14,4 +14,4 @@
 <script src="resources/plugins/fontawesome/js/all.min.js"></script>
 <script src="resources/js/menu.js "></script>
 </body>
-</html>.
+</html>
