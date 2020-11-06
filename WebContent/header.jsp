@@ -13,7 +13,7 @@
 <link rel="shortcut icon" href="resources/images/ico (1).ico"/>
 
 <meta charset="ISO-8859-1">
-<title>Insert title here</title>
+<title>Health Track</title>
 </head>
 <body>
 
