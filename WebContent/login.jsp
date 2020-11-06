@@ -3,10 +3,8 @@
 <!DOCTYPE html>
 <html>
 <head>
-<jsp:include page="header.jsp" />
-
-
 <meta charset="ISO-8859-1">
+<jsp:include page="header.jsp" />
 <title>Insert title here</title>
 </head>
 <body>
