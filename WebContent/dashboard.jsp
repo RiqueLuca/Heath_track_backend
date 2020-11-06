@@ -18,22 +18,21 @@
 		<div class="menu">
 			<ul>
 				<li class="selected"><i class="fas fa-chart-line"></i> <a
-					href="dashboard.html">DASHBOARD</a></li>
-				<li><i class="fas fa-user-circle"></i> <a href="perfil.html">PERFIL</a>
+					href="dashboard.jsp">DASHBOARD</a></li>
+				<li><i class="fas fa-user-circle"></i> <a href="perfil.jsp">PERFIL</a>
 				</li>
-				<li><i class="fas fa-weight "></i> <a href="gerenciarPeso.html">PESO
+				<li><i class="fas fa-weight "></i> <a href="peso.jsp">PESO
 						E ALTURA</a></li>
 				<li><i class="fas fa-heartbeat"></i> <a
-					href="gerenciarPressao.html">PRESSÃO ARTERIAL</a></li>
+					href="pressao.jsp">PRESSÃO ARTERIAL</a></li>
 				<li><i class="fas fa-running"></i> <a
-					href="gerenciarAtividades.html">ATIVIDADES FÍSICAS</a></li>
-				<li><i class="fas fa-calculator"></i> <a href="calcularIMC.jsp">IMC</a>
+					href="atividade.jsp">ATIVIDADES FÍSICAS</a></li>
+				<li><i class="fas fa-calculator"></i> <a href="imc.jsp">IMC</a>
 				</li>
 				<li><i class="fas fa-utensils"></i> <a
-					href="gerenciarAlimentos.html">ALIMENTOS</a></li>
+					href="alimento.jsp">ALIMENTOS</a></li>
 				<li class="sidebar_logout"><i class="fas fa-sign-out-alt"></i>
-					<a href="../views/index.html">LOGOUT</a></li>
-
+					<a href="login.jsp">LOGOUT</a></li>
 			</ul>
 		</div>
 

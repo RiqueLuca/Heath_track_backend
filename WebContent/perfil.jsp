@@ -1,50 +1,44 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+	pageEncoding="ISO-8859-1"%>
 <!DOCTYPE html>
-<html lang="pt-br">
-
+<html>
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta http-equiv="X-UA-Compatible" content="ie-edge">
-<link rel="stylesheet" href="../css/all.css">
-<link rel="stylesheet" href="../plugins/bootstrap/css/bootstrap.min.css">
-<link rel="stylesheet" href="../plugins/fontawesome/css/all.min.css">
-<title>Health Track</title>
+<meta charset="ISO-8859-1">
+<jsp:include page="header.jsp"></jsp:include>
 </head>
-
 <body>
 	<div class="flex-dashboard">
 		<sidebar id="sidebar">
 		<div class="sidebar-title">
-			<img src="../images/logo_health_track_espandido_cinza.png"
+			<img src="resources/images/logo_health_track_espandido_cinza.png"
 				alt="Logo Health Track">
 		</div>
 		<div class="menu">
 			<ul>
-				<li><i class="fas fa-chart-line"></i> <a href="dashboard.html">DASHBOARD</a>
+				<li><i class="fas fa-chart-line"></i> <a
+					href="dashboard.jsp">DASHBOARD</a></li>
+				<li class="selected"><i class="fas fa-user-circle"></i> <a href="perfil.jsp">PERFIL</a>
 				</li>
-				<li li class="selected"><i class="fas fa-user-circle"></i> <a
-					href="perfil.html">PERFIL</a></li>
-				<li><i class="fas fa-weight "></i> <a href="gerenciarPeso.html">PESO
+				<li><i class="fas fa-weight "></i> <a href="peso.jsp">PESO
 						E ALTURA</a></li>
-				<li><i class="fas fa-heartbeat"></i> <a
-					href="gerenciarPressao.html">PRESS√ÉO ARTERIAL</a></li>
-				<li><i class="fas fa-running"></i> <a
-					href="gerenciarAtividades.html">ATIVIDADES F√çSICAS</a></li>
-				<li><i class="fas fa-calculator"></i> <a
-					href="calcularIMC.html">IMC </a></li>
-				<li><i class="fas fa-utensils"></i> <a
-					href="gerenciarAlimentos.html">ALIMENTOS</a></li>
+				<li><i class="fas fa-heartbeat"></i> <a href="pressao.jsp">PRESS√O
+						ARTERIAL</a></li>
+				<li><i class="fas fa-running"></i> <a href="atividade.jsp">ATIVIDADES
+						FÕSICAS</a></li>
+				<li><i class="fas fa-calculator"></i> <a href="imc.jsp">IMC</a>
+				</li>
+				<li><i class="fas fa-utensils"></i> <a href="alimento.jsp">ALIMENTOS</a></li>
 				<li class="sidebar_logout"><i class="fas fa-sign-out-alt"></i>
-					<a href="../views/index.html">LOGOUT</a></li>
+					<a href="login.jsp">LOGOUT</a></li>
 			</ul>
 		</div>
 		<p>sidebar</p>
 		</sidebar>
 		<main id="mainContent">
 			<header>
-				<i id="iconMenu" onclick="responsiveSidebar() " class="fas fa-bars">
-				</i> <a href="../index.html"><i class="fas fa-sign-out-alt"></i>
-					LOGOUT</a>
+				<i id="iconMenu " onclick="responsiveSidebar() "
+					class="fas fa-bars "> </i> <a href="../views/login.html "><i
+					class="fas fa-sign-out-alt "></i> &nbsp; Logout</a>
 			</header>
 			<div class="main-content">
 				<div class="perfil-parent">
@@ -57,9 +51,9 @@
 						<div class="perfil-form">
 							<form>
 								<div class="form-group">
-									<label for="exampleInputEmail1">Defini√ß√µes de sa√∫de</label> <input
+									<label for="exampleInputEmail1">DefiniÁıes de sa˙de</label> <input
 										type="text" class="form-control" id="name"
-										placeholder="Nome:         Guriz√£o do Chimarr√£o">
+										placeholder="Nome:         Guriz„o do Chimarr„o">
 								</div>
 								<div class="form-group">
 									<input type="number" class="form-control" id="idade"
@@ -71,7 +65,7 @@
 								</div>
 								<div class="form-group">
 									<input type="number" class="form-control" id="idade"
-										placeholder="N√≠vel de atividade:         Sedent√°rio">
+										placeholder="NÌvel de atividade:         Sedent·rio">
 								</div>
 								<div class="form-group">
 									<label for="email">Dados da conta</label> <input type="email"
@@ -83,7 +77,7 @@
 								</div>
 								<div class="form-group">
 									<select class="form-control" id="genre">
-										<option value="" disabled selected>G√™nero: Masculino</option>
+										<option value="" disabled selected>GÍnero: Masculino</option>
 										<option>Masculino</option>
 										<option>Feminino</option>
 										<option>Outro</option>
@@ -105,9 +99,6 @@
 			</div>
 		</main>
 	</div>
-	<script src="../plugins/bootstrap/js/bootstrap.min.js"></script>
-	<script src="../plugins/fontawesome/js/all.min.js"></script>
-	<script src="../js/menu.js "></script>
+	<jsp:include page="footer.jsp"></jsp:include>
 </body>
-
 </html>
