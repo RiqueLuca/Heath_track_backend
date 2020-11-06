@@ -36,13 +36,12 @@
 		<main id="mainContent">
 			<header>
 				<i id="iconMenu " onclick="responsiveSidebar() "
-					class="fas fa-bars "> </i> <a href="../views/login.html "><i
+					class="fas fa-bars "> </i> <a href="login.jsp "><i
 					class="fas fa-sign-out-alt "></i> &nbsp; Logout</a>
 			</header>
 			<div class="main-content">
 				<div class="panel-row">
-					<button class="panel panel-50" a-view="cadastrarAlimentos"
-						onclick="fetchContent(this)" a-folder="alimentos">
+					<button class="panel panel-50" a-view="cadastrarAlimentos.jsp" onclick="fetchContent(this)" a-folder="WebContent">
 						<i class="fas fa-plus"></i> Cadastrar alimento
 					</button>
 				</div>
