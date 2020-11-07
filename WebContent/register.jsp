@@ -1,9 +1,9 @@
-<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-	pageEncoding="ISO-8859-1"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+	pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="ISO-8859-1">
+<meta charset="UTF-8">
 <jsp:include page="header.jsp"></jsp:include>
 </head>
 <body>
@@ -31,7 +31,7 @@
 				</div>
 				<div class="form-group">
 					<select class="form-control" id="genre">
-						<option value="" disabled selected>Gênero</option>
+						<option value="" disabled selected>GÃªnero</option>
 						<option>Masculino</option>
 						<option>Feminino</option>
 						<option>Outro</option>

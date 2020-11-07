@@ -1,9 +1,9 @@
-<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-	pageEncoding="ISO-8859-1"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+	pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="ISO-8859-1">
+<meta charset="UTF-8">
 <jsp:include page="header.jsp"></jsp:include>
 </head>
 <body>
@@ -21,10 +21,10 @@
 				</li>
 				<li><i class="fas fa-weight "></i> <a href="peso.jsp">PESO
 						E ALTURA</a></li>
-				<li><i class="fas fa-heartbeat"></i> <a href="pressao.jsp">PRESSÃO
+				<li><i class="fas fa-heartbeat"></i> <a href="pressao.jsp">PRESSÃƒO
 						ARTERIAL</a></li>
 				<li><i class="fas fa-running"></i> <a href="atividade.jsp">ATIVIDADES
-						FÍSICAS</a></li>
+						FÃSICAS</a></li>
 				<li><i class="fas fa-calculator"></i> <a href="imc.jsp">IMC</a>
 				</li>
 				<li><i class="fas fa-utensils"></i> <a href="alimento.jsp">ALIMENTOS</a></li>
@@ -51,9 +51,9 @@
 						<div class="perfil-form">
 							<form>
 								<div class="form-group">
-									<label for="exampleInputEmail1">Definições de saúde</label> <input
+									<label for="exampleInputEmail1">DefiniÃ§Ãµes de saÃºde</label> <input
 										type="text" class="form-control" id="name"
-										placeholder="Nome:         Gurizão do Chimarrão">
+										placeholder="Nome:         GurizÃ£o do ChimarrÃ£o">
 								</div>
 								<div class="form-group">
 									<input type="number" class="form-control" id="idade"
@@ -65,7 +65,7 @@
 								</div>
 								<div class="form-group">
 									<input type="number" class="form-control" id="idade"
-										placeholder="Nível de atividade:         Sedentário">
+										placeholder="NÃ­vel de atividade:         SedentÃ¡rio">
 								</div>
 								<div class="form-group">
 									<label for="email">Dados da conta</label> <input type="email"
@@ -77,7 +77,7 @@
 								</div>
 								<div class="form-group">
 									<select class="form-control" id="genre">
-										<option value="" disabled selected>Gênero: Masculino</option>
+										<option value="" disabled selected>GÃªnero: Masculino</option>
 										<option>Masculino</option>
 										<option>Feminino</option>
 										<option>Outro</option>

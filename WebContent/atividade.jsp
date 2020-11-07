@@ -1,9 +1,9 @@
-<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-	pageEncoding="ISO-8859-1"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+	pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="ISO-8859-1">
+<meta charset="UTF-8">
 <jsp:include page="header.jsp"></jsp:include>
 </head>
 <body>
@@ -21,10 +21,10 @@
 				</li>
 				<li><i class="fas fa-weight "></i> <a href="peso.jsp">PESO
 						E ALTURA</a></li>
-				<li><i class="fas fa-heartbeat"></i> <a href="pressao.jsp">PRESSÃO
+				<li><i class="fas fa-heartbeat"></i> <a href="pressao.jsp">PRESSÃƒO
 						ARTERIAL</a></li>
 				<li class="selected"><i class="fas fa-running"></i> <a href="atividade.jsp">ATIVIDADES
-						FÍSICAS</a></li>
+						FÃSICAS</a></li>
 				<li><i class="fas fa-calculator"></i> <a href="imc.jsp">IMC</a>
 				</li>
 				<li><i class="fas fa-utensils"></i> <a href="alimento.jsp">ALIMENTOS</a></li>
@@ -44,7 +44,7 @@
 				<div class="panel-row">
 					<button class="panel panel-50" a-view="cadastrarAtividade.jsp"
 						onclick="fetchContent(this)" a-folder="atividades">
-						<i class="fas fa-plus"></i> Cadastrar atividade física
+						<i class="fas fa-plus"></i> Cadastrar atividade fÃ­sica
 					</button>
 				</div>
 				<div class="content" id="ajax-content"></div>
@@ -54,7 +54,7 @@
 							<tr>
 								<th scope="col">Data</th>
 								<th scope="col">Tempo</th>
-								<th scope="col">Distância</th>
+								<th scope="col">DistÃ¢ncia</th>
 								<th scope="col">Editar</th>
 								<th scope="col">Deletar</th>
 							</tr>

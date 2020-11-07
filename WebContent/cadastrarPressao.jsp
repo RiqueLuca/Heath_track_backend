@@ -1,21 +1,20 @@
-<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-    pageEncoding="ISO-8859-1"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="ISO-8859-1">
+<meta charset="UTF-8">
 <jsp:include page="header.jsp"></jsp:include>
-<meta http-equiv="Content-Type" content="text/html" charset="ISO-8859-1">
 </head>
 <body>
 <div class="dynamic-content">
     <form>
         <div class="form-group">
-            <label for="weight">Pressão Sistólica</label>
+            <label for="weight">PressÃ£o SistÃ³lica</label>
             <input type="number" class="form-control" id="weight">
         </div>
         <div class="form-group">
-            <label for="weight">Pressão Diastólica</label>
+            <label for="weight">PressÃ£o DiastÃ³lica</label>
             <input type="number" class="form-control" id="weight">
         </div>
         <div class="form-group">

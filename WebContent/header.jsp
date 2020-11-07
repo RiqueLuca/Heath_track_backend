@@ -1,5 +1,5 @@
-<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-    pageEncoding="ISO-8859-1"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
 <head>
@@ -12,7 +12,6 @@
 <link rel="stylesheet" href="resources/plugins/fontawesome/css/all.css">
 <link rel="shortcut icon" href="resources/images/ico (1).ico"/>
 
-<meta charset="ISO-8859-1">
 <title>Health Track</title>
 </head>
 <body>

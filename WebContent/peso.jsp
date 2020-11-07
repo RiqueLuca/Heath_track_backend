@@ -1,9 +1,9 @@
-<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-	pageEncoding="ISO-8859-1"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+	pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="ISO-8859-1">
+<meta charset="UTF-8">
 <jsp:include page="header.jsp"></jsp:include>
 </head>
 <body>
@@ -21,10 +21,10 @@
 				</li>
 				<li class="selected"><i class="fas fa-weight "></i> <a href="peso.jsp">PESO
 						E ALTURA</a></li>
-				<li><i class="fas fa-heartbeat"></i> <a href="pressao.jsp">PRESSÃO
+				<li><i class="fas fa-heartbeat"></i> <a href="pressao.jsp">PRESSÃƒO
 						ARTERIAL</a></li>
 				<li><i class="fas fa-running"></i> <a href="atividade.jsp">ATIVIDADES
-						FÍSICAS</a></li>
+						FÃSICAS</a></li>
 				<li><i class="fas fa-calculator"></i> <a href="imc.jsp">IMC</a>
 				</li>
 				<li><i class="fas fa-utensils"></i> <a href="alimento.jsp">ALIMENTOS</a></li>

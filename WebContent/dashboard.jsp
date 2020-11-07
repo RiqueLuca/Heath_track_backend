@@ -1,10 +1,10 @@
-<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-	pageEncoding="ISO-8859-1"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+	pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
 <head>
 <jsp:include page="header.jsp" />
-<meta charset="ISO-8859-1">
+<meta charset="UTF-8">
 <title>Insert title here</title>
 </head>
 <body>
@@ -24,9 +24,9 @@
 				<li><i class="fas fa-weight "></i> <a href="peso.jsp">PESO
 						E ALTURA</a></li>
 				<li><i class="fas fa-heartbeat"></i> <a
-					href="pressao.jsp">PRESSÃO ARTERIAL</a></li>
+					href="pressao.jsp">PRESSÃƒO ARTERIAL</a></li>
 				<li><i class="fas fa-running"></i> <a
-					href="atividade.jsp">ATIVIDADES FÍSICAS</a></li>
+					href="atividade.jsp">ATIVIDADES FÃSICAS</a></li>
 				<li><i class="fas fa-calculator"></i> <a href="imc.jsp">IMC</a>
 				</li>
 				<li><i class="fas fa-utensils"></i> <a
@@ -61,7 +61,7 @@
 								CALORIAS INGERIDAS
 								<div class="p-calorias">
 									<p>
-										<span>Manhã:</span> 123 Kcal&nbsp;&nbsp;&nbsp;&nbsp; <span>Tarde:</span>
+										<span>ManhÃ£:</span> 123 Kcal&nbsp;&nbsp;&nbsp;&nbsp; <span>Tarde:</span>
 										123 Kcal&nbsp;&nbsp;&nbsp;&nbsp; <span>Noite:</span> 123
 										Kcal&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 									</p>
@@ -102,7 +102,7 @@
 										<i class="fas fa-heartbeat " style="color: #353535;"></i>
 									</div>
 									<div class="value ">120/80 mmHg</div>
-									<div class="type ">PRESSÃO</div>
+									<div class="type ">PRESSÃƒO</div>
 									<div class="box-value-percentual box-value-imc "></div>
 								</div>
 							</a>
@@ -114,7 +114,7 @@
 										<i class="fas fa-dumbbell" style="color: #353535;"></i>
 									</div>
 									<div class="value ">Corrida</div>
-									<div class="type ">ATIVIDADE FÍSICA</div>
+									<div class="type ">ATIVIDADE FÃSICA</div>
 									<div class="box-value-percentual box-value-workout"></div>
 								</div>
 							</a>

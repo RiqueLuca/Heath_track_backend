@@ -1,11 +1,11 @@
-<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-	pageEncoding="ISO-8859-1"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+	pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
 <head>
 <jsp:include page="header.jsp" />
 
-<meta charset="ISO-8859-1">
+<meta charset="UTF-8">
 <title>Insert title here</title>
 </head>
 <body>
@@ -23,10 +23,10 @@
 				</li>
 				<li><i class="fas fa-weight "></i> <a href="peso.jsp">PESO
 						E ALTURA</a></li>
-				<li><i class="fas fa-heartbeat"></i> <a href="pressao.jsp">PRESSÃO
+				<li><i class="fas fa-heartbeat"></i> <a href="pressao.jsp">PRESSÃƒO
 						ARTERIAL</a></li>
 				<li><i class="fas fa-running"></i> <a href="atividade.jsp">ATIVIDADES
-						FÍSICAS</a></li>
+						FÃSICAS</a></li>
 				<li class="selected"><i class="fas fa-calculator"></i> <a href="imc.jsp">IMC</a>
 				</li>
 				<li><i class="fas fa-utensils"></i> <a href="alimento.jsp">ALIMENTOS</a></li>
@@ -49,7 +49,7 @@
 				<div class="imc-parent">
 					<div class="imc">
 						<h2>
-							Seu IMC é<span> 19,5 &nbsp;&nbsp;<i
+							Seu IMC Ã©<span> 19,5 &nbsp;&nbsp;<i
 								class="fas fa-arrow-right"></i></span> <span class="status-imc-desktop">NORMAL</span>
 						</h2>
 						<span class="status-imc-mobile">OBESIDADE CL.3</span>
