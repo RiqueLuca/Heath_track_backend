@@ -13,5 +13,7 @@
 <script src="resources/plugins/bootstrap/js/bootstrap.min.js"></script>
 <script src="resources/plugins/fontawesome/js/all.min.js"></script>
 <script src="resources/js/menu.js "></script>
+<script src="resources/js/ajax.js "></script>
+
 </body>
 </html>
