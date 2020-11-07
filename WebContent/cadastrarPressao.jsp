@@ -1,11 +1,21 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<jsp:include page="header.jsp"></jsp:include>
+<meta http-equiv="Content-Type" content="text/html" charset="ISO-8859-1">
+</head>
+<body>
 <div class="dynamic-content">
     <form>
         <div class="form-group">
-            <label for="weight">PressÃ£o SistÃ³lica</label>
+            <label for="weight">Pressão Sistólica</label>
             <input type="number" class="form-control" id="weight">
         </div>
         <div class="form-group">
-            <label for="weight">PressÃ£o DiastÃ³lica</label>
+            <label for="weight">Pressão Diastólica</label>
             <input type="number" class="form-control" id="weight">
         </div>
         <div class="form-group">
@@ -20,3 +30,6 @@
         <button type="submit" class="btn">Cadastrar</button>
     </form>
 </div>
+<jsp:include page="footer.jsp"></jsp:include>
+</body>
+</html>

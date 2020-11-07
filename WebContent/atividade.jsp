@@ -1,4 +1,4 @@
-	<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
 	pageEncoding="ISO-8859-1"%>
 <!DOCTYPE html>
 <html>
@@ -37,12 +37,12 @@
 		<main id="mainContent">
 			<header>
 				<i id="iconMenu " onclick="responsiveSidebar() "
-					class="fas fa-bars "> </i> <a href="../views/login.html "><i
+					class="fas fa-bars "> </i> <a href="login.jsp"><i
 					class="fas fa-sign-out-alt "></i> &nbsp; Logout</a>
 			</header>
 			<div class="main-content">
 				<div class="panel-row">
-					<button class="panel panel-50" a-view="cadastrarAtividade"
+					<button class="panel panel-50" a-view="cadastrarAtividade.jsp"
 						onclick="fetchContent(this)" a-folder="atividades">
 						<i class="fas fa-plus"></i> Cadastrar atividade física
 					</button>

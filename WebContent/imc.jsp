@@ -4,7 +4,9 @@
 <html>
 <head>
 <jsp:include page="header.jsp" />
+
 <meta charset="ISO-8859-1">
+<title>Insert title here</title>
 </head>
 <body>
 	<div class="flex-dashboard">
@@ -37,7 +39,7 @@
 		<main id="mainContent">
 			<header>
 				<i id="iconMenu " onclick="responsiveSidebar() "
-					class="fas fa-bars "> </i> <a href="../views/login.html "><i
+					class="fas fa-bars "> </i> <a href="login.jsp"><i
 					class="fas fa-sign-out-alt "></i> &nbsp; Logout</a>
 			</header>
 
@@ -61,6 +63,7 @@
 			</div>
 		</main>
 	</div>
+
 	<jsp:include page="footer.jsp" />
 </body>
 </html>

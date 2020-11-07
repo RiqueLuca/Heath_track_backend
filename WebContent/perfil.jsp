@@ -37,7 +37,7 @@
 		<main id="mainContent">
 			<header>
 				<i id="iconMenu " onclick="responsiveSidebar() "
-					class="fas fa-bars "> </i> <a href="../views/login.html "><i
+					class="fas fa-bars "> </i> <a href="login.jsp""><i
 					class="fas fa-sign-out-alt "></i> &nbsp; Logout</a>
 			</header>
 			<div class="main-content">

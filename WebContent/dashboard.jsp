@@ -40,7 +40,7 @@
 		<main id="mainContent">
 			<header>
 				<i id="iconMenu " onclick="responsiveSidebar() "
-					class="fas fa-bars "> </i> <a href="../views/login.html "><i
+					class="fas fa-bars "> </i> <a href="login.jsp""><i
 					class="fas fa-sign-out-alt "></i> &nbsp; Logout</a>
 			</header>
 
@@ -72,7 +72,7 @@
 					<!-- <div class="dashboard-flex-parent"> -->
 					<div class="row justify-content-center">
 						<div class="dashboard-box ">
-							<a href="./gerenciarPeso.jsp">
+							<a href="peso.jsp">
 								<div class="dashboard-box-wrapper ">
 									<div class="box-icon box-pressure ">
 										<i class="fas fa-weight " style="color: #353535;"></i>
@@ -84,7 +84,7 @@
 							</a>
 						</div>
 						<div class="dashboard-box ">
-							<a href="./calcularIMC.html">
+							<a href="imc.jsp">
 								<div class="dashboard-box-wrapper ">
 									<div class="box-icon box-pressure ">
 										<i class="fas fa-calculator " style="color: #353535;"></i>
@@ -96,7 +96,7 @@
 							</a>
 						</div>
 						<div class="dashboard-box ">
-							<a href="./gerenciarPressao.html">
+							<a href="pressao.jsp">
 								<div class="dashboard-box-wrapper ">
 									<div class="box-icon box-imc ">
 										<i class="fas fa-heartbeat " style="color: #353535;"></i>
@@ -108,7 +108,7 @@
 							</a>
 						</div>
 						<div class="dashboard-box ">
-							<a href="./gerenciarAtividades.html">
+							<a href="atividade.jsp">
 								<div class="dashboard-box-wrapper ">
 									<div class="box-icon box-workout ">
 										<i class="fas fa-dumbbell" style="color: #353535;"></i>
@@ -120,7 +120,7 @@
 							</a>
 						</div>
 						<div class="dashboard-box ">
-							<a href="./gerenciarAlimentos.html">
+							<a href="alimento.jsp">
 								<div class="dashboard-box-wrapper ">
 									<div class="box-icon box-weight ">
 										<i class="fas fa-utensils" style="color: #353535;"></i>
@@ -136,6 +136,8 @@
 			</div>
 		</main>
 	</div>
+
+
 	<jsp:include page="footer.jsp" />
 </body>
 </html>
