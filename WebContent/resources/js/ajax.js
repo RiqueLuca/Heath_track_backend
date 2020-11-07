@@ -3,7 +3,7 @@ let content = document.getElementById("ajax-content")
 function fetchContent(el) {
     let view = el.getAttribute("a-view")
     let folder = el.getAttribute("a-folder")
-    fetch(`${view}`)
+    fetch(`${view}.jsp`)
         .then(response => {
             let html = response.text()
             return html
