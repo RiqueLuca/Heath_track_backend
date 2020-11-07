@@ -1,15 +1,14 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-    pageEncoding="ISO-8859-1"%>
+	pageEncoding="ISO-8859-1"%>
 <!DOCTYPE html>
 <html>
 <head>
-<jsp:include page="header.jsp" />
-
 <meta charset="ISO-8859-1">
+<jsp:include page="header.jsp"></jsp:include>
 </head>
 <body>
-
-<div class="dynamic-content">
+	
+	<div class="dynamic-content">
     <form>
         <div class="form-group">
             <label for="weight">Alimento</label>
@@ -26,7 +25,7 @@
         <button type="submit" class="btn">Cadastrar</button>
     </form>
 </div>
-
-<jsp:include page="footer.jsp" />
+	
+	<jsp:include page="footer.jsp"></jsp:include>
 </body>
 </html>
