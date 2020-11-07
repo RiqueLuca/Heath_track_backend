@@ -4,7 +4,6 @@
 <html>
 <head>
 <jsp:include page="header.jsp" />
-
 <meta charset="ISO-8859-1">
 </head>
 <body>
@@ -62,7 +61,6 @@
 			</div>
 		</main>
 	</div>
-
 	<jsp:include page="footer.jsp" />
 </body>
 </html>

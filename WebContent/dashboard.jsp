@@ -72,7 +72,7 @@
 					<!-- <div class="dashboard-flex-parent"> -->
 					<div class="row justify-content-center">
 						<div class="dashboard-box ">
-							<a href="./gerenciarPeso.html">
+							<a href="./gerenciarPeso.jsp">
 								<div class="dashboard-box-wrapper ">
 									<div class="box-icon box-pressure ">
 										<i class="fas fa-weight " style="color: #353535;"></i>
@@ -136,8 +136,6 @@
 			</div>
 		</main>
 	</div>
-
-
 	<jsp:include page="footer.jsp" />
 </body>
 </html>
